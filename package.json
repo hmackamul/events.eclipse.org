@@ -13,29 +13,29 @@
     "url": "git://github.com/eclipsefdn/events.eclipse.org.git"
   },
   "scripts": {
-    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "install": "NODE_ENV=production npm run production",
+    "production": "NODE_ENV=production webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "postinstall": "NODE_ENV=production npm run production",
     "disallow_robots_txt": "echo \"User-agent: *\r\nDisallow: /\" > layouts/robots.txt",
     "build_netlify": "NODE_ENV=production npm run disallow_robots_txt && npm run production",
     "test": "jest"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.107",
+    "@babel/preset-react": "^7.12.10",
+    "eclipsefdn-hugo-solstice-theme": "0.0.111",
+    "promise-polyfill": "^8.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "unfetch": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "babel-jest": "^26.3.0",
     "jest": "^26.4.2",
-    "react-app-polyfill": "^1.0.6",
     "react-test-renderer": "^16.13.1"
   },
   "development": [
@@ -43,5 +43,6 @@
     "last 1 chrome version",
     "last 1 firefox version",
     "last 1 safari version"
-  ]
+  ],
+  "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
 }
