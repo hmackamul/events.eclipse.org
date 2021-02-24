@@ -57,6 +57,7 @@ Modelling for Mobility
 {{</ grid/div >}}
 
 {{< grid/div class="featured-section-container-notes" isMarkdown="true">}}
+
 ---
 **Note:**
 
@@ -83,27 +84,41 @@ Modelling for Mobility
 {{</ grid/section-container >}}
 
 [//]: # (TCP)
-{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg" isMarkdown="true">}}
-## Technical Program Committee 
 
+{{< grid/section-container id="topics" class="featured-section-row featured-section-row-dark-bg">}}
+
+<h2 align="center">Technical Program Committee </h2>
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
 
+{{< grid/div class="row" isMarkdown="false">}}
+
+{{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left" isMarkdown="true">}}
 * Karl Andersson, Luleå University of Technology
 * Alessandra Bagnato, SOFTEAM
 * Ahmad Bani Jamali, University of Oulu
 * Christian Berger, Gothenburg University
+* Benoit Combemale, University of Toulouse, INRIA
+* Maria Teresa Delgado, Eclipse Foundation 
 * Marco Jahn, Eclipse Foundation
 * Teemu Karvonen, University of Oulu, M3S Group
 * Lukas Krawczyk, FH Dortmund
 * Markus Kelanti, University of Oulu, M3S Group
+{{</ grid/div >}}
+
+{{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left" isMarkdown="true">}}
 * Zakaria Laaroussi, Ericsson
+* Lucy Ellen Lwakatare, University of Helsinki
 * Tero Päivärinta, University of Oulu, M3S Group
 * Ella Peltonen, University of Oulu, UBICOMP
+* Ivana Podnar-Zarko, Univeresity of Zagreb
+* Sowmya Ravidas, TU Eindhoven
 * Jan-Philipp Steghoefer, Gothenburg University
 * Sasu Tarkoma, University of Helsinki
 * Burak Turhan, University of Oulu, M3S Group
 * Alexander Viehl, FZI Forschungszentrum Informatik
+{{</ grid/div >}}
 
+{{</ grid/div >}}
 
 {{</ grid/section-container >}}
 
