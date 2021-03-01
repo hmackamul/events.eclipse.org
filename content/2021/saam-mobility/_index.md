@@ -9,14 +9,14 @@ hide_sidebar: true
 header_wrapper_class: "header-saam-2021-event"
 hide_breadcrumb: true
 container: "container-fluid saam-2021-event"
-summary: "The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, and Modelling related issues, and innovative software and systems solutions."
+summary: "The Eclipse SAAM Mobility 2021 virtual conference, June 15-16, will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges."
 layout: single
 links: [[href: "cfp.pdf",text: "Call for Papers"],[href: "https://easychair.org/my/conference?conf=esaamm2021#",text: "Submit a Paper"]]
 ---
 <!-- Introduction -->
 {{< grid/section-container id="registration" class="featured-section-row featured-section-row-lighter-bg">}}
 {{< events/registration event="saam-mobility" year="2021" title="About the Event">}}
-Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The Eclipse SAAM Mobility conference will bring together industry experts and researchers working on the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling related issues, and innovative software and systems solutions. 
+Mark your calendars for Eclipse SAAM Mobility 2021, June 15-16. The virtual conference will bring together industry experts and researchers working on innovative software and systems solutions for the next generation of mobility, especially focusing on Security and Privacy, Artificial Intelligence, Architecture, Modelling and related challenges.
 
 The call for papers is open. Download the call for papers now and talk with your colleagues about participating at Eclipse SAAM Mobility 2021. 
 {{</ events/registration >}}
@@ -79,12 +79,12 @@ Modelling for Mobility
 
 | Paper submission deadline | Acceptance Notification | Camera-Ready Paper Submission |    Conference Dates   |
 | :------------------------ | :---------------------- | :---------------------------- | :-------------------- |
-|      Apr. 16, 2021        |      May 17, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
+|      Apr. 16, 2021        |      May 20, 2021       |      Jun. 8, 2021             |      Jun. 15-16, 2021 |
 
 {{</ grid/section-container >}}
 
 [//]: # (TCP)
-{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}
+{{< grid/section-container id="program-committee" class="featured-section-row featured-section-row-dark-bg">}}  
 <h2 align="center">Technical Program Committee </h2>
 
 The Technical Program Committee is an independent panel of expert volunteers and as such will do their best to judge papers objectively and on the principle of a level playing field for all. 
@@ -93,6 +93,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 
 {{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left">}}
 * Karl Andersson, Luleå University of Technology
+* Paolo Azzoni, EUROTECH
 * Alessandra Bagnato, SOFTEAM
 * Ahmad Bani Jamali, University of Oulu
 * Christian Berger, Gothenburg University
@@ -107,6 +108,7 @@ The Technical Program Committee is an independent panel of expert volunteers and
 {{< grid/div class="col-md-12 padding-bottom-20 padding-top-20 text-left">}}
 * Zakaria Laaroussi, Ericsson
 * Lucy Ellen Lwakatare, University of Helsinki
+* Ralph Mueller, Eclipse Foundation
 * Tero Päivärinta, University of Oulu, M3S Group
 * Ella Peltonen, University of Oulu, UBICOMP
 * Ivana Podnar-Zarko, Univeresity of Zagreb
