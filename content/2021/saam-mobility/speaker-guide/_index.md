@@ -45,11 +45,11 @@ We are asking each speaker to sign up for a short, group session for an equipmen
 
 ### Presentation Environment and Best Practices
 
-Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
+Presenting successfully to a virtual audience involves the right setup and lots of practice, even for experienced in-person speakers. The [Presentation Environment and Best Practices](../presentation-environment) document summarizes best practices and space recommendations that will help you deliver a dynamic and engaging talk.
 
 ### Equipment
 
-The [Presentation Environment and Best Practices](https://events.eclipse.org/2021/saam-mobility/presentation-environment/) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
+The [Presentation Environment and Best Practices](../presentation-environment) document contains our equipment recommendations, including specific items to purchase if you plan to upgrade your existing setup.   
 
 ### Pre-Recording  
 
@@ -72,7 +72,7 @@ We would like to publish your poster along with a description on our website to 
 
 ### Instructions for submitting camera-ready (due June 8, 2021)
 
-Please submit the final version of your paper by registering for camera-ready in the EDAS portal and uploading there, using [this link](https://edas.info/listConferencesAuthor.php). You will also need to upload a signed author agreement.
+Please submit the final version of your paper by registering for camera-ready in the EasyChair portal and uploading there, using [this link](https://easychair.org/my/conference?conf=esaamm2021#). You will also need to upload a signed author agreement.
 
 Before uploading:
 * Please review carefully the reviewer suggestions and make any required improvements to your paper. 
@@ -104,14 +104,20 @@ Conference Website: [https://events.eclipse.org/2021/saam-mobility](https://even
 {{< grid/div class="row" isMarkdown="false">}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
   [![Eclipse Research](/2021/saam-mobility/images/eclipse-fdn.png)](http://eclipse.org/research)
 {{</ grid/div >}}
-
+ 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
-  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com)
+  #### **Supported by:**
+  
+  [![Oulu Automotive Cluster](/2021/saam-mobility/images/oulu_cluster_and_business.png)](https://automotive.oulu.com/)
 {{</ grid/div >}}
 
 {{< grid/div class="col-md-8 padding-bottom-20" isMarkdown="true">}}
+  #### **Co-organized by:**
+  
   [![University of Oulu](/2021/saam-mobility/images/oulu-univ.png)](https://www.oulu.fi/university)
 {{</ grid/div >}}
 
