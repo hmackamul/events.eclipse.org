@@ -11,19 +11,43 @@
  * SPDX-License-Identifier: EPL-2.0
 */
 
+.jumbotron {
+  padding-bottom: 10px;
+}
+
 .header-cn4ef-day-2021-event {
-  background-image: url('images/cn4f-day/jumbotron.jpg');
-  background-size: cover;
-  text-shadow: 1px 1px #000;
+  & {
+    background-image: url('images/cn4f-day/jumbotron.jpg');
+    background-size: cover;
+    text-shadow: 1px 1px #000;
+  }
+  .dropdown-menu {
+    text-shadow: none;
+  }
+  h1 {
+    margin-bottom: 0;
+    &:after {
+      border: none;
+    }
+  }
   h2 {
+    margin: 0 0 20px 0;
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
+    color: @orange;
+  }
+  .btn {
+    text-shadow: none;
+  }
+  .register-btn {
+    margin-top: 15px;
+    border-radius: 4px;
   }
 }
 
 .cn4ef-logos {
-  margin: 10px auto 30px auto;
+  margin: 80px 0 20px 0;
   li {
     padding: 20px;
     @media (min-width: @screen-md-min) {
@@ -36,5 +60,53 @@
 
   img {
     height: 27px;
+  }
+}
+
+.white-row {
+  background-color: white;
+}
+
+.about-the-event-section {
+  & {
+    margin: 80px 0;
+  }
+  h2 {
+    font-weight: 500;
+    color: #6a6661;
+  }
+}
+
+.event-hosted-by-section {
+  .ef-logo-ctn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .ef-logo {
+      width: 150px;
+    }
+  }
+
+  .wg-ctn {
+    & {
+      box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+      height: 180px;
+      @media only screen and (min-width: 768px) and (max-width: 925px) {
+        height: 220px;
+      }
+    }
+    .logo-header {
+      height: 56px;
+      background-color: @orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 120px;
+      }
+      .small-height-logos {
+        width: 170px;
+      }
+    }
   }
 }
