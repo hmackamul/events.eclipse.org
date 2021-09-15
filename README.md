@@ -4,7 +4,7 @@ The [events.eclipse.org](https://events.eclipse.org) website is generated with [
 
 The site provides date, time and place for the various events (conferences, demo camps, special days, hackathons and trainings) for the Eclipse ecosystem, displayed on a convenient map of the world.
 
-[![Build Status](https://travis-ci.org/EclipseFdn/events.eclipse.org.svg?branch=master)](https://travis-ci.org/eclipsefdn/events.eclipse.org) [![Netlify Status](https://api.netlify.com/api/v1/badges/8d42015f-09c7-46b1-9f9c-419404d01f6d/deploy-status)](https://app.netlify.com/sites/eclipsefdn/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d42015f-09c7-46b1-9f9c-419404d01f6d/deploy-status)](https://app.netlify.com/sites/eclipsefdn/deploys)
 
 ## Getting started
 
