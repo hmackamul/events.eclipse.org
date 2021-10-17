@@ -1,5 +1,13 @@
 # events.eclipse.org
 
+---
+**NOTE**
+
+This project was migrated to [Eclipse Gitlab](https://github.com/EclipseFdn/events.eclipse.org) on October 14, 2021.
+
+---
+
+
 The [events.eclipse.org](https://events.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/).
 
 The site provides date, time and place for the various events (conferences, demo camps, special days, hackathons and trainings) for the Eclipse ecosystem, displayed on a convenient map of the world.
