@@ -3,7 +3,7 @@
 ---
 **NOTE**
 
-This project was migrated to [Eclipse Gitlab](https://github.com/EclipseFdn/events.eclipse.org) on October 14, 2021.
+This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/websites/events.eclipse.org) on October 14, 2021.
 
 ---
 
